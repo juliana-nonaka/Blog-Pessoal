@@ -60,6 +60,7 @@ public class UsuarioControllerTest {
 		assertEquals(requisicao.getBody().getUsuario(), resposta.getBody().getUsuario());
 	}
 
+	
 	@Test
 	@Order(2)
 	@DisplayName("Não deve permitir duplicação do Usuário")
